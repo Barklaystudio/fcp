@@ -1,0 +1,75 @@
+.price {
+    background: $main-bg;
+    padding: 60px 0;
+    &-title {
+        width: 720px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+        padding-top: 24px;
+    }
+    &__item {
+        border: 1px solid #FFA501;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        cursor: pointer;
+        &:hover {
+            background: #4D0354;
+        }
+        &-title {
+            color: #FFA501;
+            font-weight: bold;
+        }
+        &-descr {
+            color: #fff;
+            font-size: 14px;
+            margin-top: 20px;
+            list-style: none;
+        }
+        li {
+            padding-bottom: 15px;
+        }
+        &-cost {
+            text-align: center;
+            p {
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 20px;
+                color: #81f543;
+                span {
+                    color:rgb(248, 6, 6);
+                    font-size: 14px;
+                }
+            }
+            a {
+                background: #2A7A04;
+                border-radius: 82px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 22px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                padding: 6px 15px;
+                }
+        }
+    }
+    &__footer {
+        text-align: center;
+        color:#fff;
+        margin-top: 15px;
+        font-style: italic;
+    }
+}

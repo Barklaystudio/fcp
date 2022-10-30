@@ -1,0 +1,49 @@
+.results {
+    background: $main-bg;
+    padding-top: 60px;
+    h1, h2 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    h2 {
+        color: #0ba416;
+    }
+    &__video {
+        width: 100%;
+    }
+    ul {
+        display: grid;
+        grid-template: 2, 0.5fr / 3, 30px;
+        grid-template-columns: repeat(2, 0.5fr);
+        grid-template-rows: repeat(3, 81px);
+        list-style-type: none;
+        text-align: left;
+        li {
+            color:#fff;
+            padding-left: 20px;
+            position: relative;           
+            &::before {
+                content: '';
+                position: absolute;
+                background: url('../icons/done.png') center (center / cover) no-repeat;
+                top:2px;
+                left: 0;
+                width: 16px;
+                height: 15px;
+            }
+        }
+    }
+    iframe {
+        border-color: #FFA501;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    &__title {
+        padding-top: 40px;
+    }
+    &__item {
+        font-size: 20px;
+
+    }
+}

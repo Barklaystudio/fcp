@@ -1,0 +1,55 @@
+.devices {
+    background: $main-bg;
+    padding: 60px 0;
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 60px;
+        color: #FFA501;
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 66px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        flex-wrap: wrap;
+        column-gap: 13px;
+    }
+    &__item {
+        border: 1px solid #FFA501;
+        cursor: pointer;
+        &:hover {
+            background:#4d0354;
+        }
+    }
+    &__header {
+        display: flex;
+        padding: 15px;
+        align-items: center;
+        gap: 24px;
+        
+        &-img {
+            max-width: 72px;
+            max-height: 82px;
+            object-fit: fill;
+        }
+        &-title {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: center;
+            color: #fff;
+        }
+        &-descr {
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 18px;
+            padding: 0 24px 24px 24px;
+            color: #FFA501;
+            a{
+                color: #fff;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,25 @@
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 20px;
+    color: #FFFFFF;
+    &_fz16 {
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    &_fz20 {
+        font-size: 20px;
+    }
+    &_fz42 {
+        font-size: 42px;
+        color:#FFA501;
+        line-height: 54px;
+    }
+    &_fz42 {
+        font-size: 42px;
+        color:#FFA501;
+        line-height: 54px;
+    }
+}
