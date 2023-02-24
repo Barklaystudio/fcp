@@ -19,7 +19,6 @@
         padding: 15px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
         cursor: pointer;
@@ -29,18 +28,24 @@
         &-title {
             color: #FFA501;
             font-weight: bold;
+            min-height: 89px;
+            display: flex;
+            align-items: center;
         }
         &-descr {
             color: #fff;
             font-size: 14px;
             margin-top: 20px;
             list-style: none;
+            height: 339px;
         }
         li {
             padding-bottom: 15px;
         }
         &-cost {
             text-align: center;
+            // margin-top: 15px;
+            margin: 15px 0;
             p {
                 font-size: 20px;
                 font-style: normal;
@@ -48,9 +53,10 @@
                 font-size: 20px;
                 line-height: 20px;
                 color: #81f543;
+                text-transform: uppercase;
                 span {
                     color:rgb(248, 6, 6);
-                    font-size: 14px;
+                    font-size: 36px;
                 }
             }
             a {
