@@ -34,19 +34,13 @@ body {
     cursor: pointer;
     margin: 30px auto;
     text-align: center;
-    &:hover {
-        background:#fff;
-        color:#2A7A04;
-    }
     a {
         font-weight: 700;
         font-size: 18px;
         line-height: 21px;
         color: #fff;
-        &:hover {
-         color:#2A7A04;
-        }
     }
+    
 }
 .divider {
     width: 240px;
